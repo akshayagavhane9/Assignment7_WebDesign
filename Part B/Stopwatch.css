@@ -1,0 +1,46 @@
+#container {
+    width: 1000px;
+    margin: auto;
+    background-color: #B8B3D0;
+    border: 5px solid;
+    border-color: black;
+    border-radius: 5%;
+  }
+  main {
+    padding: 50px;
+  }
+  body {
+    text-align: center;
+  }
+
+  #stopwatch {
+    font-size: 130px;
+    font-weight: 1000;
+  }
+
+  #stopwatch span {
+    display: inline-block;
+    min-width: 150px;
+  }
+
+  button {
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 3px solid #555555;
+  }
+  button:hover {
+    background-color: #555555;
+    color: white;
+  }
+  fieldset
+  {
+    border-color: black;
+  }
